@@ -1,0 +1,147 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding:  3rem 10rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    background-color: #00cc66;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+button:hover{
+    box-shadow: 0px 0px 8px #00cc66;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: black;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site h1 span{
+    color: black;
+}
+
+.topo-do-site p{
+    color: black;
+    margin: 40px 0;
+}
+
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.lk-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00cc66;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    margin: 0cap;
+}
+
+.flex{
+    display: flex;
+}
+
+.rodape {
+    background-color: #00cc66; /* verde */
+    color: #000000; /* cor do texto branco */
+    text-align: center;
+    padding: 20px 0; /* espaço interno de 20px no topo e na base */
+    position: fixed; /* fixa o rodapé na parte inferior da janela */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

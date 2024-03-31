@@ -1,0 +1,146 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #00cc66;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding:  3rem 10rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 400;
+}
+
+a {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.tabela{
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Estilos gerais para a tabela */
+.tabela {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+/* Estilos para cabeçalho da tabela */
+.table th {
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    text-align: center;
+}
+
+/* Estilos para células da tabela */
+.table td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+}
+
+/* Estilos alternados para linhas da tabela */
+.table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para células do cabeçalho */
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Estilos para células que não são do cabeçalho */
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.box-pesquisa{
+    padding: 20px;
+    
+
+}
+
+.btn {
+    background-color: #007bff; /* cor de fundo do botão */
+    color: #fff; /* cor do texto */
+    border: none; /* remover borda */
+    padding: 10px 20px; /* preenchimento interno */
+    border-radius: 5px; /* borda arredondada */
+    cursor: pointer; /* cursor do mouse */
+    font-size: 16px; /* tamanho da fonte */
+}
+
+/* Estilizando o botão ao passar o mouse */
+.btn:hover {
+    background-color: #0056b3; /* cor de fundo do botão ao passar o mouse */
+}
+
+.texto{
+    color: white;
+}
+
+
+h1{
+    color: black;
+}
